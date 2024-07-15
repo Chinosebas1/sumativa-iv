@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background: #ffffff  ;}
+
+#inicio {
+    scroll-margin-top: 1000px;}
+
+#diseño {
+    scroll-margin: 80x;}
+
+#programacion {
+    scroll-margin: 2px;}
+
+#html {
+    scroll-margin: 15px;}
+
+#css {
+    scroll-margin: 5px;}
+
+#github {
+    scroll-margin: 1px;}
+    
+#contacto {
+    scroll-margin: 200px;}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);}
+
+.carousel-item{
+    width: 103%;
+    height: 800px;}
+    
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
